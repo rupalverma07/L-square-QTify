@@ -14,9 +14,9 @@ border: 1px solid #121212
 .searchBtn{
 width: 66px;
 height: 48px;
-position: absolute;
-top: 13px;
-left: 938px;
+position: relative;
+top: 6px;
+left: 0px;
 gap: 0px;
 border-radius: 0px 8px 8px 0px;
 /* border: 1px 0px 0px 0px; */
