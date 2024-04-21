@@ -6,11 +6,11 @@
     border: 1px solid #121212 !important;
     border-radius: 12px !important;
     padding: 10px 16px !important;
-    font-family: Poppins;
-font-size: 18px;
-font-weight: 600;
-line-height: 27px;
-letter-spacing: 0.25px;
-text-align: center;
+    font-family: Poppins !important;
+font-size: 18px !important;
+font-weight: 600 !important;
+line-height: 27px!important;
+letter-spacing: 0.25px !important;
+text-align: center !important;
 
 }
