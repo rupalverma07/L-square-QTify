@@ -1,0 +1,57 @@
+.container{
+    width: 1460px;
+height: 536px;
+/* gap: 0px; */
+/* opacity: 0px; */
+background-color: var(--secondary);
+/* width: Hug (1,384px)px; */
+/* height: Hug (848px)px; */
+/* top: 368px; */
+/* left: 32px; */
+margin-left: 46px;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+gap: 32px;
+/* opacity: 0px; */
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.topText{
+    color: var(--color2);
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+
+}
+
+.topBtn{
+    width: 90px;
+height: 30px;
+/* left: 1286px; */
+/* gap: 0px; */
+/* opacity: 0px; */
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+/* text-align: right; */
+color: var(--primary);
+background-color: var(--secondary);
+border: 0;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}

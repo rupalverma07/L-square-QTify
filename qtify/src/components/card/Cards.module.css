@@ -1,0 +1,59 @@
+.cardImg{
+width: 159px !important;
+height: 170px !important;
+/* gap: 0px !important; */
+border-radius: 10px 10px 0px 0px !important;
+/* opacity: 0px; */
+object-fit: contain;
+
+}
+
+.customCard{
+width: 159px !important;
+height: 205px !important;
+ /* gap: 6px;  */
+border-radius: 10px !important;
+/* opacity: 0px; */
+background: #FFFFFF;
+
+
+}
+
+.customChip{
+width: 85px !important;
+height: 23px !important;
+/* top: 176px !important; */
+/* left: 8px !important; */
+/* padding: 4px 8px 4px 8px !important; */
+/* gap: 1px !important; */
+border-radius: 10px !important;
+/* opacity: 0px !important; */
+background: var(--color1) !important;
+font-family: Poppins !important;
+font-size: 10px !important;
+font-weight: 400 !important;
+line-height: 15px !important;
+text-align: left !important;
+color: var(--color2) !important;
+
+
+
+}
+
+.cardOuter{
+    width: 173px;
+height: 232px;
+gap: 6px;
+/* opacity: 0px; */
+
+}
+
+.cardText{
+    font-family: Poppins !important;
+font-size: 14px !important;
+font-weight: 400 !important;
+line-height: 21px !important;
+text-align: left !important;
+color: var(--color2);
+
+}
