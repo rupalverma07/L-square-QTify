@@ -8,6 +8,7 @@ import styles from './Cards.module.css';
 import Chip from '@mui/material/Chip';
 
 const Cards = ({data}) => {
+  const chipText = data.follows+" Follows"
   return (
     <Box className={styles.cardOuter}>
     <Card className={styles.customCard} >
@@ -20,7 +21,7 @@ const Cards = ({data}) => {
           alt={data.title}
         />
         <CardContent style={{padding:"8px"}}>
-          <Chip  className={styles.customChip} label={data.follows} />
+          <Chip  className={styles.customChip} label={chipText} />
           
         </CardContent>
       </CardActionArea>

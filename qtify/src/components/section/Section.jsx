@@ -3,7 +3,7 @@ import { getTopAlbumData } from '../../apiService/service';
 import styles from './Section.module.css';
 import Cards from '../card/Cards';
 
-const Section = () => {
+const Section = ({children}) => {
     const[topAlbums, setTopAlbums] = useState([]);
 const getData =async() =>{
     const albums = await getTopAlbumData()
@@ -16,7 +16,7 @@ const getData =async() =>{
   return (
     <div className={styles.container}>
         <div className={styles.btnContainer}>
-            <h2 className={styles.topText}>Top Albums</h2>
+            <h2 className={styles.topText}>{children}</h2>
             <button className={styles.topBtn}>Collapse</button>
         </div>
       <div className={styles.row}>

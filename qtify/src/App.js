@@ -11,8 +11,10 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      {/* <Cards/> */}
-      <Section />
+      <div style={{borderBottom:"1px solid #34c94b", marginBottom:"10px", paddingBottom:"7px"}}>
+      <Section>Top Albums</Section> 
+      </div>
+      <Section>New Albums</Section>
     </div>
   );
 }
