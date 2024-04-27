@@ -1,0 +1,17 @@
+.swiper-slide{
+    width: 13% !important;
+}
+
+.leftBtn{
+    position: absolute;
+    left: 0px;
+    z-index: 1000;
+    bottom: 120px;
+}
+
+.rightBtn{
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+    bottom: 120px;
+}

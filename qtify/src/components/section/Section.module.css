@@ -1,6 +1,6 @@
 .container{
-    width: 1460px;
-height: 536px;
+    width: 1160px;
+min-height:277px;
 /* gap: 0px; */
 /* opacity: 0px; */
 background-color: var(--color1);
@@ -23,6 +23,7 @@ margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    position: relative;
 }
 
 .topText{

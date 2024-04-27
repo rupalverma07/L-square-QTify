@@ -6,6 +6,7 @@ import Cards from './components/card/Cards';
 import Section from './components/section/Section';
 import { getNewAlbumData, getTopAlbumData } from './apiService/service';
 import { useEffect, useState } from 'react';
+import Carausel from './components/carausel/Carausel';
 
 
 function App() {
@@ -34,6 +35,7 @@ const newAlbumData =async() =>{
       <Section title="Top Albums" data={topAlbums} />
       </div>
       <Section title="New Albums" data={newAlbums}/>
+      {/* <Carausel /> */}
     </div>
   );
 }
