@@ -14,7 +14,7 @@ const Cards = ({data}) => {
     <Card className={styles.customCard} >
       <CardActionArea>
         <CardMedia
-        className={styles.cardImg}
+          className={styles.cardImg}
           component="img"
           height="140"
           image={data.image}
@@ -22,7 +22,6 @@ const Cards = ({data}) => {
         />
         <CardContent style={{padding:"8px"}}>
           <Chip  className={styles.customChip} label={chipText} />
-          
         </CardContent>
       </CardActionArea>
     </Card>

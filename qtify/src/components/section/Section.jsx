@@ -24,4 +24,4 @@ const Section = ({title,data}) => {
   )
 }
 
-export default Section
+export default Section;

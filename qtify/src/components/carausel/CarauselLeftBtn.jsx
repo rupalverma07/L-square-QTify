@@ -11,7 +11,7 @@ const CarauselLeftBtn = () => {
         swiper.on("slideChange",() =>{
             setIsStart(swiper.isBeginning)
         })
-    },[])
+    },[swiper.isBeginning])
   return (
     <div className='leftBtn'>
       {!isStart && <LeftArrow onClick={() => swiper.slidePrev()}/>}

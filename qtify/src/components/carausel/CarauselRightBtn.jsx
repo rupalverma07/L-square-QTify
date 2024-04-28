@@ -11,7 +11,7 @@ const CarauselRightBtn = () => {
         swiper.on("slideChange",() =>{
             setIsEnd(swiper.isEnd)
         })
-    },[])
+    },[swiper.isEnd])
   return (
     <div className='rightBtn'>
       {!isEnd && <RightArrow onClick={() => swiper.slideNext()}/>}
