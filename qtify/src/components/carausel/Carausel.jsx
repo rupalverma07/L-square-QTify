@@ -19,7 +19,7 @@ const Carausel = ({data,renderCardItem}) => {
   return (
     // <div>
         <Swiper
-      spaceBetween={45}
+      spaceBetween={50}
       slidesPerView={"auto"}
     initialSlide={0}
       modules={[Navigation]}
