@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -7,8 +7,11 @@ import { Box, CardActionArea } from '@mui/material';
 import styles from './Cards.module.css';
 import Chip from '@mui/material/Chip';
 
-const Cards = ({data}) => {
-  const chipText = data.follows+" Follows"
+const Cards = ({data, type}) => {
+  // const[chipText, setChipText] = useState('')
+
+  const like = data.likes+' Likes';
+  const chipText = data.follows+" Follows";
   return (
     <Box className={styles.cardOuter}>
     <Card className={styles.customCard} >
@@ -21,7 +24,9 @@ const Cards = ({data}) => {
           alt={data.title}
         />
         <CardContent style={{padding:"8px"}}>
-          <Chip  className={styles.customChip} label={chipText} />
+          {type ==='album' ?(<Chip  className={styles.customChip} label={chipText} />):(<Chip  className={styles.customChip} label={like} />)}
+          
+          
         </CardContent>
       </CardActionArea>
     </Card>

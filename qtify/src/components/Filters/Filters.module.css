@@ -1,0 +1,15 @@
+.customTab{
+    color:var(--color2) !important;
+    font-family: Poppins !important;
+font-size: 16px !important;
+font-weight: 600 !important;
+line-height: 24px !important;
+/* text-align: left !important; */
+width: 68px !important;
+height: 34px !important;
+/* gap: 0px !important; */
+border-radius: 2px !important;
+/* opacity: 0px !important; */
+
+
+}
