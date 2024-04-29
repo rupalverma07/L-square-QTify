@@ -6,13 +6,16 @@ import Typography from '@mui/material/Typography';
 import { Box, CardActionArea } from '@mui/material';
 import styles from './Cards.module.css';
 import Chip from '@mui/material/Chip';
+import Tooltip from '@mui/material/Tooltip';
 
 const Cards = ({data, type}) => {
   // const[chipText, setChipText] = useState('')
 
   const like = data.likes+' Likes';
   const chipText = data.follows+" Follows";
+  // const noOfSongs = data.songs.length+" songs"
   return (
+<Tooltip title={type==='album' ? (data.songs.length+" songs") : ("")} placement={type==='album' ? ("top") : ("")} arrow>
     <Box className={styles.cardOuter}>
     <Card className={styles.customCard} >
       <CardActionArea>
@@ -34,6 +37,7 @@ const Cards = ({data, type}) => {
             {data.title}
           </Typography>
     </Box>
+    </Tooltip>
   )
 }
 
